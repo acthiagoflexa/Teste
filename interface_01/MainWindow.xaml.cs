@@ -234,6 +234,11 @@ namespace interface_01
         private void btnLimparPesquisa_Click(object sender, RoutedEventArgs e)
         {
             lstDados.ItemsSource = CarregaDados();
+            txtPesquisarPor.Clear();
+            txtCodigoPeca.Clear();
+            txtDescricaoPeca.Clear();
+            txtLadoA.Clear();
+            txtLadoB.Clear();
         }
 
         private void btnPesquisarPor_Click(object sender, RoutedEventArgs e)
